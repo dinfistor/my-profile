@@ -1,0 +1,147 @@
+/* Colors and fonts */
+
+body { 
+	background-color: rgba(0 0 0 / 23%);
+	color: #160000c2;
+	letter-spacing: 1.5px;
+	font-family: Playfair;
+	line-height: 1.8;
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+	h1 {
+		color: #620707;
+		font-family: Times New Roman;
+		font-size: 40px;
+		line-height: 1;
+	}
+
+	h2, h3, h4 {
+		margin-top: 20px;
+		color: #black;
+		font-family: Times New Roman;
+		letter-spacing: 1.5px;
+		font-size: 27px;
+		line-height: 1;
+	}
+
+	h6	{
+		color: #620707;
+		font-family: Times New Roman;
+		letter-spacing: 1.5px;
+		font-size: 30px;
+		margin-bottom: 20px;
+		line-height: 1;
+	}
+
+	p {
+		color: #3c0000c9;
+		font-family: Arial;
+		letter-spacing: 1.25px;
+		font-size: 18px;
+	}
+
+	ol {
+		color: #3c0000c9;
+		font-family: Arial;
+		letter-spacing: 1.25px;
+	}
+
+	a {  
+		text-decoration: none;
+		color: royalblue;
+		transition: color 0.3s ease;
+	}
+	a:hover {
+		color: indianred;
+	}
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media(max-width: 900px) {
+	.container {
+		width: 800px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 500px;
+	}
+}
+
+
+.card-white {
+	background: white;
+	padding: 60px;
+	margin: 50px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+	border-radius: 60px;
+}
+
+.img-circle {
+	border-radius: 10%;
+}
+
+.list-inline li {
+	display: inline;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.list-inline i {
+	color: #5e7ab773;
+	font-size: 90px;
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+.btn-color {
+	background-color: royalblue;
+	color: gold;
+	padding: 15 px 20 px;
+	border-radius: 4px;
+}
+.btn-color:hover {
+	background-color: black;
+	color: gold;
+}
+
+.card-special {
+	background: #f9f1f1;
+	padding: 60px;
+	margin: 50px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+	border-radius: 60px;
+	padding: 60px;
+}
+
+ /* Design adjustments using id */
+
+#introduction h6 {
+	letter-spacing: 1.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
